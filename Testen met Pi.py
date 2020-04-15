@@ -1,2 +1,2 @@
-from subprocess import call
-call(["/opt/vc/bin/tvservice -o"])
+import os
+os.system("/opt/vc/bin/tvservice -o")
